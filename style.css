@@ -1,0 +1,454 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+/*Fonts link start*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+font-family: 'Lato', sans-serif;
+font-family: 'Bebas Neue', cursive;
+/*Fonts link End */
+/* Typrography Start*/
+
+a, a:hover{
+    text-decoration: none;
+}
+p,h1,h2,h3,h4,h5,h6{
+    line-height: normal;
+    margin:0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.bg-color{
+    background-color: #ffc61a;
+}
+.bg-gray{
+    background: #f5f4f2;
+}
+.text-orange{
+    color: #ffc61a;
+}
+.btn-dark{
+    background: #000;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    border-color: #000;
+    letter-spacing: 1px;
+}
+.btn-dark:hover{
+    color:#ffc61a; 
+    background:#000; 
+}
+.btn-orange{
+    background:#ffc61a; 
+    color:#000;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    border-color: #000;
+    
+}
+/* Typrography End*/
+/*Header Style Start*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    width: 100%;
+    background: url(img/header_bg.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 740px;
+    position: relative;
+}
+.cab{
+    position: absolute;
+    bottom:-112px;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.navbar{
+    padding-top: 20px;
+}
+.navbar ul li a{
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 15px;
+    padding: 4px 10px;
+    transition: .5s ease all;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+}
+.navbar ul li:hover a{
+    background: #ffc61a;
+    color: black;
+    
+}
+.header-text{
+    padding:70px 0;
+    
+}
+.header-text h3{
+    color: #ffc61a;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+.header-text h1{
+    color:#fff;
+    font-size: 72px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+.header-text a{
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+/*Header Style End*/
+/*Services Style Start*/
+.service{
+    min-height: 715px; 
+    width: 100%;
+    overflow: hidden;
+    padding: 70px 0;
+}
+.service-left{
+    margin-top: 150px;
+    margin-bottom: 122px;
+}
+.service-left h3{
+    font-family:'Lato', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 26px;
+}
+.service-left h1{
+    font-family:'Lato', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 44px;
+}
+.service-left p{
+    font-family:'Lato', sans-serif;
+    color: #101010;
+    font-weight: regular;
+    font-size:18px;
+    margin-bottom:62px;
+}
+.service-left a{
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-weight: bold;
+    font-size:29px;
+    background: #000;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: .5s ease all;
+}
+.service-left:hover a{
+    color: #ffc61a;
+}
+.service-right{
+    margin-top:160px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #fff;
+}
+.service-right> h1{
+    font-family:font-family:'Lato', sans-serif;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+.service-right>h1>span{
+    color: #ffc61a;
+}
+.service-right>form>input[type=text]{
+    width: 49%;
+    display: inline-block;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid #e4e4e4;
+    margin-bottom: 20px;
+}
+.service-right>form>select{
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid #e4e4e4;
+    margin-bottom: 20px;
+}
+form>input.form-control:focus{
+    border-color: #ffc61a;
+    box-shadow: none;
+}
+form>select.form-control:focus{
+    border-color: #ffc61a;
+    box-shadow: none;
+}
+.service-right a{
+    background: #000;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 34px;
+    border-radius: 15px;
+    font-family: 'Bebas Neue', cursive;
+    transition: .5s ease all;
+}
+.service-right:hover a{
+    color: #ffc61a;
+}
+/*Services Style End*/
+/*Card-section Style Start*/
+.card-section{
+    background: #fff;
+    padding: 64px 0;
+}
+.card-section h2{
+    color: #ffc61a;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:font-family:'Lato', sans-serif;
+}
+.card-section h1{
+    text-transform: uppercase;
+    font-size: 43px;
+    font-weight: bold;
+    font-family:font-family:'Lato', sans-serif;
+    margin-bottom: 148px;    
+}
+.card{
+    border-radius: 0;
+    position: relative;
+    
+}
+.card-body p{
+    color: #101010;
+    font-size: 18px;
+}
+.card-car img{
+    margin-top: -80px;
+}
+.card-body button{
+    padding: 10px 20px;
+}
+.card-star{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/*Card-section Style End*/
+/*Content-section Style Start*/
+.content-section{
+    background: url(img/wishbg.jpg)no-repeat;
+    background-size: cover;
+    padding: 75px 0;
+}
+.info h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:font-family:font-family:'Lato', sans-serif; 
+}
+.info h1{
+   text-transform: uppercase;
+    color: #fff;
+    font-size: 43px;
+    font-weight: bold;
+    font-family:font-family:'Lato', sans-serif; 
+}
+.content-text h2{
+    font-size: 25px;
+}
+.content-text p{
+    font-size: 18px;
+}
+.content-button{
+    margin-top: 30px;
+}
+.content-button a{
+    font-family: 'Bebas Neue', cursive;
+    color: #000;
+    font-weight: 600;
+    font-size:25px;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: .5s ease all;
+    
+}
+/*Content-section Style End*/
+/*Download-section Style Start*/
+.download-left h2{
+    color: #000;
+    font-weight: bold;
+    font-size: 35px;
+}
+.download-left p{
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.download-right img{
+    float: right;
+    margin-top: 20px;
+}
+/*Download-section Style End*/
+/*Client-section Style Start*/
+.client-section{
+    padding: 100px 0;
+    background: url(img/testimonial.jpg)no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.client-info{
+    margin-bottom: 105px;
+}
+.client-info h2{
+    font-size: 35px;.
+    font-family: lato;
+    font-family:'Lato', sans-serif;
+}
+.client-info h1{
+    font-size: 49px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Lato', sans-serif;
+    color: #fff;
+}
+.client-card{
+    background: #000;
+    padding: 35px 45px;
+    border-radius: 30px;
+}
+.client-card p{
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+}
+.client-text1 h2{
+    font-size: 25px;
+    font-family:'Lato', sans-serif;
+    
+}
+.client-text1 h3{
+    font-size: 18px;
+    font-family:'Lato', sans-serif;
+    color: #fff;
+    
+}
+/*Client-section Style End*/
+/*Help-line Style Start*/
+.help{
+    padding: 75px 0;
+}
+.help h3{
+    color: #000;
+    font-size: 35px;
+    font-family:'Lato', sans-serif; 
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.help h1{
+    font-size: 75px;
+    color: #000;
+    font-family:'Lato', sans-serif; 
+    font-weight: bold;
+}
+/*Help-line Style End*/
+/*ADC Style Start*/
+.adc{
+    background: url(img/contact.jpg)no-repeat center center;
+    background-size: cover;
+    padding: 80px 0;
+}
+.adc-info>h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Lato', sans-serif; 
+    text-transform: uppercase;
+}
+.adc-info>p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    font-family:'Lato', sans-serif; 
+    margin-bottom: 35px;
+}
+.underline{
+    height: 5px;
+    width: 100%;
+    margin:30px 0;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.social>ul>li>a>i{
+    color: #ffc61a;
+}
+.an-ios>ul{
+    list-style: none;
+}
+.an-ios>ul>li{
+    margin-bottom: 20px;
+}
+.an-ios>ul>li>span{
+    margin-right: 30px;
+}
+.an-ios>ul>li>span.mr{
+    margin-right: 58px;
+}
+.an-ios>ul>li>a>i{
+    color: #fff;
+    font-size: 25px;
+}
+.contact ul li{
+    list-style: none;
+    padding: 10px;
+}
+.contact ul li i{
+    position: absolute;
+}
+.contact ul li p{
+    position: relative;
+    margin-left: 50px;
+}
+.footer-section{
+    color: #fff;
+    padding: 24px 0;
+    background: #000;
+    
+}
+
+/*ADC Style End*/
+
+
+
+
+
+
+
+
+
+
+
